@@ -6,3 +6,4 @@ function Weather(){
 Weather.prototype.isStormy = function(){
   return (Math.random() > this.probability);
 };
+      
